@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology @ DrSuresh.NET</title>
+    <link>/</link>
+    <description>Recent content on Technology @ DrSuresh.NET</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Dr. Suresh Ramasamy</copyright>
+    <lastBuildDate>Sat, 01 Feb 2025 10:21:15 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Genesis</title>
+      <link>/posts/genesis/</link>
+      <pubDate>Sat, 01 Feb 2025 10:21:15 +0800</pubDate>
+      
+      <guid>/posts/genesis/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
