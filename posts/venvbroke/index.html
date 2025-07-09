@@ -12,16 +12,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Authors &middot; Technology @ DrSuresh.NET</title>
-  <meta name="title" content="Authors &middot; Technology @ DrSuresh.NET" />
+  <title>The day when my Python Virtual Environment broke &middot; Technology @ DrSuresh.NET</title>
+  <meta name="title" content="The day when my Python Virtual Environment broke &middot; Technology @ DrSuresh.NET" />
   
   <meta name="description" content="My ramblings, tips and tricks on what I discover on tech. " />
   
   
   
-  <link rel="canonical" href="/authors/" />
-  
-  <link rel="alternate" type="application/rss+xml" href="/authors/index.xml" title="Technology @ DrSuresh.NET" />
+  <link rel="canonical" href="/posts/venvbroke/" />
   
   
   
@@ -70,22 +68,52 @@
   
   
   
-  <meta property="og:url" content="/authors/">
+  <meta property="og:url" content="/posts/venvbroke/">
   <meta property="og:site_name" content="Technology @ DrSuresh.NET">
-  <meta property="og:title" content="Authors">
+  <meta property="og:title" content="The day when my Python Virtual Environment broke">
   <meta property="og:description" content="My ramblings, tips and tricks on what I discover on tech.">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-07-09T19:17:54+08:00">
+    <meta property="article:modified_time" content="2025-07-09T19:17:54+08:00">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Authors">
+  <meta name="twitter:title" content="The day when my Python Virtual Environment broke">
   <meta name="twitter:description" content="My ramblings, tips and tricks on what I discover on tech.">
 
     
   
   
-  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "The day when my Python Virtual Environment broke",
+    "headline": "The day when my Python Virtual Environment broke",
+    
+    
+    "inLanguage": "en",
+    "url" : "\/posts\/venvbroke\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Dr. Suresh Ramasamy"
+    },
+    "copyrightYear": "2025",
+    "dateCreated": "2025-07-09T19:17:54\u002b08:00",
+    "datePublished": "2025-07-09T19:17:54\u002b08:00",
+    
+    "dateModified": "2025-07-09T19:17:54\u002b08:00",
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "256"
+  }]
+  </script>
+
 
   
   
@@ -372,14 +400,19 @@
       <main id="main-content" class="grow">
         
   
-  
 
 
-  <header>
+  <article>
     
-    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Authors</h1>
-    <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+
+
+    <header id="single_header" class="mt-5 max-w-prose">
       
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        The day when my Python Virtual Environment broke
+      </h1>
+      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
 
 
 
@@ -389,6 +422,31 @@
   
 
 
+
+  
+
+  
+  
+  
+
+  
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
 
   
 
@@ -404,22 +462,174 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
+      <time datetime="2025-07-09T19:17:54&#43;08:00">9 July 2025</time><span class="px-2 text-primary-500">&middot;</span><span>256 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+    
+
+    
+    
   </div>
 
-
-    </div>
-  </header>
   
 
   
+  
 
-    <section class="flex flex-wrap max-w-prose -mx-2 overflow-hidden">
+  
+  
+
+
+
+      </div>
+
       
-    </section>
-  
+      
+      
+      
+      
 
+      
+
+      
 
         
+          
+          
+<div class="flex author">
+  
+  <div class="place-self-center">
+    
+      <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+        Author
+      </div>
+      <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+        Dr. Suresh Ramasamy
+      </div>
+    
+    
+      <div class="text-sm text-neutral-700 dark:text-neutral-400">A tech afficianado who hails from South East Asia.</div>
+    
+    <div class="text-2xl sm:text-lg">
+</div>
+  </div>
+</div>
+
+        
+
+        
+
+        
+          <div class="mb-5"></div>
+        
+
+      
+
+    </header>
+
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+
+
+
+        <div class="article-content max-w-prose mb-20">
+          <p>I never thought that a virtual environment would break. But here we are. This is my story.</p>
+<p>I had a server that was long overdue for OS upgrade. It had been running Debian 11 for long time, and rightfully so as the critical package was only supported on Debian 11. Today, I happen to do some maintenance and found out that I am now free to move to Debian 12. And thats when trouble started (why does this happen to me?)</p>
+<p>So, I used apt to upgrade the packages, then the OS, and then finally the packages again just to make sure everything runs on the new OS version. All worked well. Sort off.</p>
+<p>I had a site that was running on Python-Flask-Gunicorn. Site was down. Logged in to check, to find that gunicorn wasn&rsquo;t running. Okay, no biggie, I just go in and start the service. I got a bunch of errors saying that pip wasn&rsquo;t available. Tried running pip manually, didn&rsquo;t work. Exited the virtualenv, the OS version of pip was working fine. Nothing worked because the scripts were calling pip inside the virtualenv.</p>
+<p>So, Hail Mary and decided to create a new virtual environment and run &ldquo;pip install -r requirements.txt&rdquo; (kids make sure your requirements.txt file is in working condition!). Made changes to my gunicorn helper scripts and viola! it worked! It&rsquo;s alive!!!</p>
+<p>So, today I learnt that OS upgrade breaks Python&rsquo;s virtual environment. It seems (and I don&rsquo;t know how) that the OS binding of Python has an influence to the virtualenvironment.</p>
+
+          
+          
+          
+        </div>
+
+        
+
+        
+
+        
+
+        
+
+      </div>
+
+      
+      
+        
+        
+          
+          
+        
+        
+        
+        <script
+          type="text/javascript"
+          src="/js/page.min.407e5b2727c1f241c95d53db24c776bea71bfc18e09511b815d669ad8caca6e9e18a53864ad364b1ccccfa2f2956768d33cfe193bfb64d3406f3b5ece354ba57.js"
+          integrity="sha512-QH5bJyfB8kHJXVPbJMd2vqcb/BjglRG4FdZprYyspunhilOGStNksczM&#43;i8pVnaNM8/hk7&#43;2TTQG87Xs41S6Vw=="
+          data-oid="views_posts/venvbroke.md"
+          data-oid-likes="likes_posts/venvbroke.md"></script>
+      
+
+    </section>
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group mr-3" href="/posts/genesis/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Genesis</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2025-02-01T10:21:15&#43;08:00">1 February 2025</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+        <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a
+    href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top"
+    title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+
       </main><footer id="site-footer" class="py-10 print:hidden">
   
   
