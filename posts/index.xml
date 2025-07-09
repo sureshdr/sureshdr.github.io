@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Technology @ DrSuresh.NET</title>
-    <link>/posts/</link>
+    <link>//localhost:1313/posts/</link>
     <description>Recent content in Posts on Technology @ DrSuresh.NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Dr. Suresh Ramasamy</copyright>
-    <lastBuildDate>Wed, 09 Jul 2025 19:17:54 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Jul 2025 19:17:54 +0800</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The day when my Python Virtual Environment broke</title>
-      <link>/posts/venvbroke/</link>
+      <link>//localhost:1313/posts/venvbroke/</link>
       <pubDate>Wed, 09 Jul 2025 19:17:54 +0800</pubDate>
       
-      <guid>/posts/venvbroke/</guid>
+      <guid>//localhost:1313/posts/venvbroke/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Genesis</title>
-      <link>/posts/genesis/</link>
+      <link>//localhost:1313/posts/genesis/</link>
       <pubDate>Sat, 01 Feb 2025 10:21:15 +0800</pubDate>
       
-      <guid>/posts/genesis/</guid>
+      <guid>//localhost:1313/posts/genesis/</guid>
       <description></description>
       
     </item>
