@@ -110,7 +110,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "1249"
+    "wordCount": "1250"
   }]
   </script>
 
@@ -462,7 +462,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-07-28T10:57:59&#43;08:00">28 July 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1249 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span>
+      <time datetime="2025-07-28T10:57:59&#43;08:00">28 July 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1250 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span>
     
 
     
@@ -951,7 +951,7 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install supervisor -y
 </span></span></code></pre></div><p>Create <code>/etc/supervisor/conf.d/flask-app.conf</code>:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ini" data-lang="ini"><span class="line"><span class="cl"><span class="k">[program:flask-app]</span>
-</span></span><span class="line"><span class="cl"><span class="na">command</span><span class="o">=</span><span class="s">/home/flaskapp/.local/bin/uv run gunicorn -c gunicorn_config.py app:app</span>
+</span></span><span class="line"><span class="cl"><span class="na">command</span><span class="o">=</span><span class="s">/home/flaskapp/.local/bin/uv run gunicorn -c gunicorn_config.py --daemon app:app</span>
 </span></span><span class="line"><span class="cl"><span class="na">directory</span><span class="o">=</span><span class="s">/opt/flask-app</span>
 </span></span><span class="line"><span class="cl"><span class="na">user</span><span class="o">=</span><span class="s">flaskapp</span>
 </span></span><span class="line"><span class="cl"><span class="na">autostart</span><span class="o">=</span><span class="s">true</span>
