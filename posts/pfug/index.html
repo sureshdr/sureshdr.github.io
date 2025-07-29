@@ -110,7 +110,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "1250"
+    "wordCount": "1262"
   }]
   </script>
 
@@ -462,7 +462,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-07-28T10:57:59&#43;08:00">28 July 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1250 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span>
+      <time datetime="2025-07-28T10:57:59&#43;08:00">28 July 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1262 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span>
     
 
     
@@ -951,7 +951,7 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install supervisor -y
 </span></span></code></pre></div><p>Create <code>/etc/supervisor/conf.d/flask-app.conf</code>:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ini" data-lang="ini"><span class="line"><span class="cl"><span class="k">[program:flask-app]</span>
-</span></span><span class="line"><span class="cl"><span class="na">command</span><span class="o">=</span><span class="s">/home/flaskapp/.local/bin/uv run gunicorn -c gunicorn_config.py --daemon app:app</span>
+</span></span><span class="line"><span class="cl"><span class="na">command</span><span class="o">=</span><span class="s">/home/flaskapp/.local/bin/uv run gunicorn -c gunicorn_config.py app:app</span>
 </span></span><span class="line"><span class="cl"><span class="na">directory</span><span class="o">=</span><span class="s">/opt/flask-app</span>
 </span></span><span class="line"><span class="cl"><span class="na">user</span><span class="o">=</span><span class="s">flaskapp</span>
 </span></span><span class="line"><span class="cl"><span class="na">autostart</span><span class="o">=</span><span class="s">true</span>
@@ -959,7 +959,8 @@
 </span></span><span class="line"><span class="cl"><span class="na">redirect_stderr</span><span class="o">=</span><span class="s">true</span>
 </span></span><span class="line"><span class="cl"><span class="na">stdout_logfile</span><span class="o">=</span><span class="s">/var/log/flask-app/supervisor.log</span>
 </span></span><span class="line"><span class="cl"><span class="na">environment</span><span class="o">=</span><span class="s">PATH=&#34;/home/flaskapp/.local/bin:/usr/local/bin:/usr/bin:/bin&#34;</span>
-</span></span></code></pre></div>
+</span></span></code></pre></div><p>Note: Do not daemonise gunicorn with &ndash;daemon. That will be handled by Supervisor.</p>
+
 <h3 class="relative group">Start and enable Supervisor 
     <div id="start-and-enable-supervisor" class="anchor"></div>
     
