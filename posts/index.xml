@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Dr. Suresh Ramasamy</copyright>
-    <lastBuildDate>Mon, 28 Jul 2025 10:57:59 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Aug 2025 12:59:32 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Setting up own Git server</title>
+      <link>/posts/newgit/</link>
+      <pubDate>Thu, 21 Aug 2025 12:59:32 +0800</pubDate>
+      
+      <guid>/posts/newgit/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Python &#43; Flask &#43; Gunicorn - using uv</title>

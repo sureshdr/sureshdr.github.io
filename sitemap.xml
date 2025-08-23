@@ -4,18 +4,24 @@
 
   <url>
     <loc>/posts/</loc>
-    <lastmod>2025-07-28T10:57:59+08:00</lastmod>
+    <lastmod>2025-08-21T12:59:32+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/posts/pfug/</loc>
-    <lastmod>2025-07-28T10:57:59+08:00</lastmod>
+    <loc>/posts/newgit/</loc>
+    <lastmod>2025-08-21T12:59:32+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/</loc>
+    <lastmod>2025-08-21T12:59:32+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/posts/pfug/</loc>
     <lastmod>2025-07-28T10:57:59+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
